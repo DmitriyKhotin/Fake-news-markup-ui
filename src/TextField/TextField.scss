@@ -1,0 +1,69 @@
+.textField {
+  position: relative;
+
+  .textFieldInput {
+    width: 560px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1.5px solid #E2DDDD;
+    background: #5F5F5F;
+    outline: none;
+    padding: 16px 20px;
+    resize: none;
+
+    color: rgba(237, 237, 237, 0.98);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    scrollbar-gutter: stable;
+
+    &::-webkit-scrollbar-track
+    {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar
+    {
+      width: 12px;
+      background-color: #F5F5F5;
+      border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb
+    {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #282828;
+    }
+
+    &::placeholder {
+      color: rgba(205, 204, 204, 0.86);
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  .textSize {
+    color: #E2DDDD;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+  }
+}
+
+
+
+

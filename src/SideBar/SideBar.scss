@@ -1,0 +1,53 @@
+.sideBar {
+  width: 320px;
+  background: #282828;
+  padding: 25px 32px;
+
+  .sideBarLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+    height: 38px;
+    margin: auto;
+    margin-bottom: 14px;
+  }
+
+  .logoText {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
+
+  .period {
+    margin-top: 34px;
+    margin-bottom: 4px;
+
+    color: #AFAFAF;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
+
+  .conversation {
+    margin-top: 22px;
+
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 240px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+

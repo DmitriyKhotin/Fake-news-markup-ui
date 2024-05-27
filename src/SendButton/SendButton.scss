@@ -1,0 +1,19 @@
+.sendButton {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background: #E2DDDD;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background: #909090;
+    cursor: pointer;
+  }
+
+  &:active {
+    background: rgba(144, 144, 144, 0.66);
+  }
+}

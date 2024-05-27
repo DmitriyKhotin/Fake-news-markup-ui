@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "..",
+    "useDefineForClassFields": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "preserveConstEnums": false,
+    "sourceMap": true,
+    "paths": {
+      "tests/*": ["tests/*"],
+      "src/*": ["src/*"],
+      "Types/*": ["Types/*"]
+    }
+  },
+  "include": [
+    "fake-news-markup-ui/src/**/*", "Types"],
+  "exclude": ["node_modules"]
+}
